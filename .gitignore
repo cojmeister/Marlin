@@ -32,10 +32,10 @@ mczip.h
 #
 applet/
 .DS_Store
-
 #
 # Misc
 #
+config/
 *~
 *.orig
 *.rej
