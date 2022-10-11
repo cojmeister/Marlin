@@ -118,7 +118,13 @@ tags
 *.su
 
 # PlatformIO files/dirs
-.pio*
+/.pio/*
+!/.pio/build
+./pio/build/*
+!/.pio/build/STM32F103RC_btt_USB
+/.pio/build/STM32F103RC_btt_USB/*
+!/.pio/build/STM32F103RC_btt_USB/firmware.bin
+
 .pioenvs
 .piolibdeps
 .clang_complete
